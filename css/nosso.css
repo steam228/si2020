@@ -93,4 +93,12 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 }
 
+th:first-child,
+td:first-child {
+  padding-left: 1%; }
+
+thead{
+    font-size: large;
+}
+
 
