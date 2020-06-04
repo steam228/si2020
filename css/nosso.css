@@ -110,6 +110,10 @@ h6 {
   letter-spacing: 0;
 }
 
+
+.navbar {
+  display: none; }
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
@@ -176,10 +180,10 @@ h6 {
     display: block; }
   / Re-overiding the width 100% declaration to match size of % based container /
   .has-docked-nav .navbar > .container {
-    width: 80%; } }
+    width: 80%; }
+}
 
-    .navbar {
-      display: none; }
+
 
 
 .logotipo {
