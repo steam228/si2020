@@ -152,6 +152,7 @@ h6 {
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 80%; }
+    
 }
 
 
@@ -248,4 +249,10 @@ thead {
   width: 60%;
   height: 60%;
   object-fit: contain;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
