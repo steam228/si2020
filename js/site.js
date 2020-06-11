@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   // Variables
   var $codeSnippets = $('.code-example-body'),
+  $logoVert = document.getElementById("logoVertical"),
+
       $nav = $('.navbar'),
       $body = $('body'),
       $window = $(window),
@@ -62,6 +64,7 @@ $(document).ready(function() {
 
   function resize() {
     $body.removeClass('has-docked-nav')
+    $logoVert.style.display = "none";
     navOffsetTop = $nav.offset().top
     onScroll()
   }
@@ -69,10 +72,13 @@ $(document).ready(function() {
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
       $body.addClass('has-docked-nav')
+      $logoVert.style.display = "block";
     }
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
       $body.removeClass('has-docked-nav')
+      $logoVert.style.display = "none";
     }
+  
   }
 
   function escapeHtml(string) {
