@@ -31,6 +31,7 @@
 
 .container {
   position: relative;
+  z-index: 99;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
