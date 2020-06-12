@@ -148,7 +148,8 @@ h6 {
     position: fixed;
     background: #fff;
     top: 0;
-    left: 0; }
+    left: 0;    
+  }
   .has-docked-nav .navbar-spacer {
     display: block; }
   /* Re-overiding the width 100% declaration to match size of % based container */
@@ -275,4 +276,21 @@ thead {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background: #E7E8E9;
+}
+
+
+#logoVertical {
+  display: none;
+
+ 
+
+  position: fixed;
+  top: 10%;
+  left: 0; 
+  
+}
+
+#logoVertical img {
+  height: 35%; 
+  width: 35%;
 }
